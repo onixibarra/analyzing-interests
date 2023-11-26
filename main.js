@@ -13,3 +13,10 @@ function countThePeople(people) {
   }
   return counter
 }
+
+// or you could write it like this. much simpler and wont go through loops
+
+function countThePeople(people) {
+  // Return the length of the array
+  return people.length;
+}
